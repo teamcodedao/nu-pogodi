@@ -1,9 +1,13 @@
 export default function About() {
   return (
     <div id='about' className='mt-16 mx-5'>
-      <h2 className='text-center text-heading'>About</h2>
-      <div className='relative mt-2 sm:mt-5 rounded-[2.5rem] bg-secondary px-14 py-10 max-w-[min(100%,940px)] mx-auto font-mclaren leading-10 text-pretty text-xl sm:text-[29px] font-thin'>
-        <p className='relative z-20'>
+      <div className='flex [&_img]:multi-[flex-1;overflow-hidden;object-cover]'>
+        <img src='/chain-1.svg' alt='' />
+        <h2 className='text-center text-heading shrink-0'>About</h2>
+        <img src='/chain-2.svg' alt='' className='rotate-[2deg]' />
+      </div>
+      <div className='relative mt-2 sm:mt-5 rounded-[2.5rem] bg-secondary px-14 py-10 max-w-[min(100%,940px)] mx-auto leading-10 text-pretty text-xl sm:text-[29px] font-thin'>
+        <p className='relative z-20 font-mclaren'>
           Nu, Pogodi!" (Ну, погоди!) is a famous Soviet and Russian animated
           series that became a cultural phenomenon in Russia and many other
           former Soviet republics. Nu, Pogodi!" was created by Vyacheslav
@@ -21,7 +25,7 @@ export default function About() {
           <img src='/pogodi-0.png' alt='' className='w-[200px] -ml-[105%]' />
         </div>
         <div className='absolute right-0 top-1/2 -translate-y-1/2'>
-          <p className='uppercase font-bold text-white rotate-[-12deg] text-4xl whitespace-nowrap inline-block ml-[106%]'>
+          <p className='uppercase font-medium text-white rotate-[-12deg] text-4xl whitespace-nowrap inline-block ml-[106%]'>
             Nu, Pogodi!
           </p>
         </div>

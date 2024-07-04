@@ -15,7 +15,7 @@ export default function Tokenomics() {
       >
         <div>
           <img src='/pogodi-3.png' alt='' />
-          <h4>TOTAL SUPPLY</h4>
+          <h4 className='whitespace-nowrap'>TOTAL SUPPLY</h4>
           <p>1.000.000.000</p>
         </div>
         <div>
