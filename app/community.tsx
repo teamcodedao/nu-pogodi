@@ -6,7 +6,7 @@ export default function Community() {
       <h2 className='text-heading text-center'>Community</h2>
       <div
         className={clsx(
-          'rounded-[3rem] bg-secondary mt-5 sm:mt-10 py-10 grid gap-x-10 gap-y-5 sm:gap-y-10 grid-cols-[repeat(auto-fit,minmax(min(100%,340px),1fr))]',
+          'rounded-[3rem] bg-secondary mt-4 sm:mt-8 py-10 grid gap-x-10 gap-y-5 sm:gap-y-10 grid-cols-[repeat(auto-fit,minmax(min(100%,340px),1fr))]',
           '*:multi-[flex;flex-col;justify-center]',
           'text-[40px] text-center',
           '[&_img]:multi-[h-[130px];object-contain]',

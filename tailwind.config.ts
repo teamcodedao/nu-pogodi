@@ -17,6 +17,7 @@ const config: Config = {
       },
       fontFamily: {
         nerko: 'var(--nerko-one-font)',
+        mclaren: 'var(--mclaren-font)',
       },
     },
   },

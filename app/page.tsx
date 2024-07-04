@@ -6,6 +6,7 @@ import Nav from './nav';
 import Hamburger from './hamburger';
 import Hero from './hero';
 import Community from './community';
+import About from './about';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       </header>
       <Hero />
       <Community />
+      <About />
     </div>
   );
 }

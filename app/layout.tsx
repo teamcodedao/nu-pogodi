@@ -1,5 +1,5 @@
 import type {Metadata} from 'next';
-import {Luckiest_Guy, Nerko_One} from 'next/font/google';
+import {Luckiest_Guy, Nerko_One, McLaren} from 'next/font/google';
 import './globals.css';
 import clsx from 'clsx';
 
@@ -14,6 +14,12 @@ const nerkoOneFont = Nerko_One({
   variable: '--nerko-one-font',
 });
 
+const mcLarenFont = McLaren({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--mclaren-font',
+});
+
 export const metadata: Metadata = {
   title: 'Nu, Pogodi!',
   description: 'Nu, Pogodi!',
@@ -26,7 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={clsx(font.className, nerkoOneFont.variable)}>
+      <body
+        className={clsx(
+          font.className,
+          nerkoOneFont.variable,
+          mcLarenFont.variable
+        )}
+      >
         {children}
       </body>
     </html>
