@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id='about' className='mt-16 mx-5'>
+    <div id='about' className='mt-16 mx-5 overflow-hidden'>
       <div className='flex [&_img]:multi-[flex-1;overflow-hidden;object-cover]'>
         <img src='/chain-1.svg' alt='' />
         <h2 className='text-center text-heading shrink-0'>About</h2>
