@@ -2,7 +2,7 @@ import clsx from 'clsx';
 
 export default function Community() {
   return (
-    <div id='community' className='mt-8 max-2xl:px-5'>
+    <div id='community' className='mt-8 mx-5'>
       <h2 className='text-heading text-center'>Community</h2>
       <div
         className={clsx(
