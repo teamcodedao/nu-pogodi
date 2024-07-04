@@ -8,8 +8,10 @@ export default function Nav({className, isHamburger, ...restProps}: NavProps) {
   return (
     <ul
       {...restProps}
-      className={clsx(className, '[&_a:hover]:underline', {
-        'flex gap-x-20 text-[40px] mr-20': !isHamburger,
+      className={clsx(className, 'uppercase', '[&_a:hover]:underline', {
+        'flex flex-col gap-2 text-white text-3xl [&_a]:block': isHamburger,
+        'flex gap-x-5 lg:gap-x-10 xl:gap-x-20 text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] mr-20':
+          !isHamburger,
       })}
     >
       <li>
