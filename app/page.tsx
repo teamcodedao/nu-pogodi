@@ -12,7 +12,6 @@ export default function Home() {
       <header
         className={clsx(
           '[--rounded:3rem]',
-          '[--hamburger:825px]',
           'bg-secondary py-2 lg:py-5 flex gap-x-10 justify-between items-center relative rounded-bl-[--rounded] rounded-br-[--rounded]',
           'after:multi-[absolute;z-[-1];top-0;left-0;w-full;h-[calc(100%+14px)];bg-[#0698D7];rounded-bl-[--rounded];rounded-br-[--rounded]]'
         )}
@@ -29,7 +28,7 @@ export default function Home() {
           <Hamburger />
         </div>
       </header>
-      {/* <Hero /> */}
+      <Hero />
     </div>
   );
 }

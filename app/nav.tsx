@@ -15,7 +15,7 @@ export default function Nav({className, isHamburger, ...restProps}: NavProps) {
       })}
     >
       <li>
-        <a href='#'>HOME</a>
+        <a href='#home'>HOME</a>
       </li>
       <li>
         <a href='#community'>COMMUNITY</a>
