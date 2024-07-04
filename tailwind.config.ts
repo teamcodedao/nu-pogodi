@@ -15,6 +15,9 @@ const config: Config = {
         primary: '#00C1FE',
         secondary: '#F4F3E4',
       },
+      fontFamily: {
+        nerko: 'var(--nerko-one-font)',
+      },
     },
   },
   plugins: [require('tailwindcss-multi')],

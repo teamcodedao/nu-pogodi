@@ -5,6 +5,7 @@ import logoImg from './logo.png';
 import Nav from './nav';
 import Hamburger from './hamburger';
 import Hero from './hero';
+import Community from './community';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         </div>
       </header>
       <Hero />
+      <Community />
     </div>
   );
 }

@@ -1,10 +1,17 @@
 import type {Metadata} from 'next';
-import {Luckiest_Guy} from 'next/font/google';
+import {Luckiest_Guy, Nerko_One} from 'next/font/google';
 import './globals.css';
+import clsx from 'clsx';
 
 const font = Luckiest_Guy({
   weight: ['400'],
   subsets: ['latin'],
+});
+
+const nerkoOneFont = Nerko_One({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--nerko-one-font',
 });
 
 export const metadata: Metadata = {
@@ -19,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={font.className}>{children}</body>
+      <body className={clsx(font.className, nerkoOneFont.variable)}>
+        {children}
+      </body>
     </html>
   );
 }

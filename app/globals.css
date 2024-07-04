@@ -14,4 +14,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-heading {
+    @apply uppercase text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[100px];
+  }
 }
