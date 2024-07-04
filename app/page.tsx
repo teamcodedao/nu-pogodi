@@ -7,6 +7,7 @@ import Hamburger from './hamburger';
 import Hero from './hero';
 import Community from './community';
 import About from './about';
+import Tokenomics from './tokenomics';
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <Hero />
       <Community />
       <About />
+      <Tokenomics />
     </div>
   );
 }
