@@ -11,7 +11,7 @@ import Tokenomics from './tokenomics';
 
 export default function Home() {
   return (
-    <div className='max-w-screen-2xl mx-auto overflow-hidden'>
+    <div className='max-w-screen-2xl mx-auto overflow-hidden pb-10'>
       <header
         className={clsx(
           '[--rounded:3rem]',

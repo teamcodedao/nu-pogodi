@@ -17,6 +17,14 @@ export default function About() {
           alt=''
           className='absolute right-5 -bottom-[60px] scale-x-[-1] w-[188px]'
         />
+        <div className='absolute left-0 top-1/2 -translate-y-1/2'>
+          <img src='/pogodi-0.png' alt='' className='w-[200px] -ml-[105%]' />
+        </div>
+        <div className='absolute right-0 top-1/2 -translate-y-1/2'>
+          <p className='uppercase font-bold text-white rotate-[-12deg] text-4xl whitespace-nowrap inline-block ml-[106%]'>
+            Nu, Pogodi!
+          </p>
+        </div>
       </div>
     </div>
   );
