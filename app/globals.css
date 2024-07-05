@@ -18,4 +18,8 @@ body {
   .text-heading {
     @apply uppercase text-white text-6xl lg:text-7xl xl:text-8xl 2xl:text-[100px];
   }
+
+  .text-shadow {
+    text-shadow: 0px 8px 4px #00000040;
+  }
 }

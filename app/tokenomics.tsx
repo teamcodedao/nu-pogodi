@@ -6,7 +6,7 @@ export default function Tokenomics() {
       <h2 className='text-heading text-center relative z-20'>tokenomics</h2>
       <div
         className={clsx(
-          'rounded-[3rem] mt-5 bg-secondary px-5 py-20 sm:py-32 grid gap-x-10 gap-y-16 grid-cols-[repeat(auto-fit,minmax(min(100%,340px),1fr))] font-nerko text-6xl',
+          'rounded-[3rem] mt-5 bg-secondary px-5 py-20 sm:py-32 grid gap-x-10 gap-y-16 grid-cols-[repeat(auto-fit,minmax(min(100%,340px),1fr))] font-nerko text-4xl sm:text-5xl md:text-6xl',
           '*:multi-[flex;flex-col;items-center]',
           '[&_p]:text-primary',
           '[&_img]:multi-[h-[140px];object-contain;mb-10]',

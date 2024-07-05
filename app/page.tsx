@@ -25,7 +25,7 @@ export default function Home() {
             priority
             quality={100}
             alt=''
-            className='scale-x-[-1] ml-5 h-[100px] sm:h-[130px] lg:h-[150px] object-contain object-right'
+            className='scale-x-[-1] ml-5 h-[80px] sm:h-[100px] lg:h-[130px] xl:h-[150px] object-contain object-right'
           />
           <Nav className='max-[825px]:hidden' />
           <div className='hidden max-[825px]:multi-[block] mr-5'>
