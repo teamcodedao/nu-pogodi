@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className='absolute inset-0 flex items-center px-5 sm:px-10'>
         <h1 className='text-shadow text-4xl text-white sm:text-heading mt-5 sm:mt-20 rotate-[-5deg]'>
-          Nu, Pogodi!
+          Telegram Wolf
         </h1>
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function Home() {
       <header
         className={clsx(
           '[--rounded:3rem]',
-          'sticky top-0 min-[825px]:relative z-50',
+          'sticky top-0 min-[750px]:relative z-50',
           'after:multi-[absolute;z-[-1];top-0;left-0;w-full;h-[calc(100%+14px)];bg-[#0698D7];rounded-bl-[--rounded];rounded-br-[--rounded]]'
         )}
       >
@@ -25,10 +25,10 @@ export default function Home() {
             priority
             quality={100}
             alt=''
-            className='scale-x-[-1] ml-5 h-[80px] sm:h-[100px] lg:h-[130px] xl:h-[150px] object-contain object-right'
+            className='scale-x-[-1] ml-5 sm:ml-12 lg:ml-20 xl:ml-28 h-[70px] sm:h-[90px] lg:h-[120px] xl:h-[130px] object-contain object-right'
           />
-          <Nav className='max-[825px]:hidden' />
-          <div className='hidden max-[825px]:multi-[block] mr-5'>
+          <Nav className='max-[750px]:hidden' />
+          <div className='hidden max-[750px]:multi-[block] mr-5'>
             <Hamburger />
           </div>
         </div>

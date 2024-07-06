@@ -21,8 +21,8 @@ const mcLarenFont = McLaren({
 });
 
 export const metadata: Metadata = {
-  title: 'Nu, Pogodi!',
-  description: 'Nu, Pogodi!',
+  title: 'Telegram Wolf',
+  description: 'Telegram Wolf',
 };
 
 export default function RootLayout({

@@ -24,7 +24,7 @@ export default function Tokenomics() {
           <p>BURNED</p>
         </div>
         <div>
-          <img src='/pogodi-5.png' alt='' />
+          <img src='/pogodi-5.png' alt='' className='scale-x-[-1]' />
           <h4>TAX</h4>
           <p>0/0</p>
         </div>
