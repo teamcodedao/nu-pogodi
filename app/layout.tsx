@@ -22,7 +22,8 @@ const mcLarenFont = McLaren({
 
 export const metadata: Metadata = {
   title: 'Telegram Wolf',
-  description: 'Telegram Wolf',
+  description:
+    "Step into the wild with Telegram Wolf, the fun-loving, charismatic leader on TON. This isn't just a meme project. It's a roaring adventure where our animated wolf brings excitement, laughter, and community spirit to new heights.",
 };
 
 export default function RootLayout({
